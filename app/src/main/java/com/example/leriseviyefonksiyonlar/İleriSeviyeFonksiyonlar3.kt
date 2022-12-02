@@ -30,7 +30,7 @@ fun main(){
     val emtyBook=with(Book("efiller",543)){
         name="Sefiller"
     }
-    println(emtyBook)//Unit yazar. Apply yazsaydık çıktı Sefiller olurdu.
+    println(emtyBook)//Unit yazar. Apply yazsaydık çıktı Book(name=Sefiller, page=543) olurdu.
 
 
 
